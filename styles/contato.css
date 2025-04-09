@@ -34,7 +34,7 @@
 .contato__email::placeholder {
     font-family: var(--fonte-principal);
     color: var(--azul);
-    background: url("../img/carta.png") no-repeat;
+    background: url("../img/icones_principais/carta.png") no-repeat;
     padding-left: 2em;
 }
 
