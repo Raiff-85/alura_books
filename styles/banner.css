@@ -32,7 +32,7 @@
     color: var(--branco);
     background-image: url("../img/icones_principais/Pesquisa.png");
     background-repeat: no-repeat;
-    background-position: left 1em center;
+    background-position: left 1em left;
     background-size: 20px;
     padding-right: 3em; /* Dá espaço pro ícone não sobrepor o texto */
 }
