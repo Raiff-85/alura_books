@@ -6,7 +6,7 @@
 }
 
 .banner__titulo {
-    font-style: 18px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -32,7 +32,9 @@
     color: var(--branco);
     background-image: url("../img/icones_principais/Pesquisa.png");
     background-repeat: no-repeat;
-    background-position: justify;
+    background-position: left 1em center;
+    background-size: 20px;
+    padding-right: 3em; /* Dá espaço pro ícone não sobrepor o texto */
 }
 
 @media screen and (min-width: 1024px) {
@@ -43,19 +45,11 @@
     .banner__pesquisa {
         width: 50%;
     }
-
-    .banner__pesquisa::placeholder {
-        background-position: 7cm;
-    }
 }
 
 @media screen and (min-width: 1728px) {
-    .banner__Pesquisa {
+    .banner__pesquisa {
         width: 35%;
-    }
-    
-    .banner__pesquisa::placeholder {
-        background-position: 12em;
     }
 
     .banner {
